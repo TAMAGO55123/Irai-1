@@ -1,0 +1,7 @@
+.left{
+    float: left;
+}
+div#header{
+    display: block;
+    border: 1px solid blue;
+}
