@@ -1,20 +1,34 @@
 .left{
     float: left;
 }
+.right{
+    float: right;
+}
 div#header{
     display: block;
     background-color: #415DFF;
     height: 40px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
-div#header h1{
+div#header h1, div#header i{
     color: white;
+}
+div#header i{
+    display: inline-block;
+}
+div#header i::before{
+    content: "\f0c9";
+    font-size: 40px;
 }
 div#header a{
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
     height: 40px;
+}
+
+div#panel i.close::before{
+    content: "\f057";
+    font-size: 30px;
+}
+div#panel{
+    margin-top: 40px;
 }

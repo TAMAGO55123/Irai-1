@@ -30,11 +30,24 @@
         <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
+        <div id="style">
+            <style class="onest"></style>
+        </div>
         <div data-role="page" id="page01">
             <div id="header">
                 <a href="/index.html">
                     <img src="/img/logo1.jpeg" style="width: 40px;" class="left">
                     <h1 class="left m-maru" style="font-size: 30px; font-weight: 900;">と♡(とはと)</h1>
+                </a>
+                <a href="#panel" class="right">
+                    <i class="fa-solid fa-bars right"></i>
+                </a>
+            </div>
+
+            <!--menu panel-->
+            <div id="panel" data-role="panel" data-animate="true" data-display="overlay" data-position="right">
+                <a href="#" data-rel="close">
+                    <i class="fa-solid fa-circle-xmark right close"></i>
                 </a>
             </div>
         </div>
@@ -46,6 +59,7 @@
             <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
             <script src="/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
             <script src="/js/lib/console.js"></script>
+            <script src="/js/main1.js"></script>
         </div>
     </body>
 </html>
