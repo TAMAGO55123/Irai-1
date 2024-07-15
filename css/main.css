@@ -3,5 +3,9 @@
 }
 div#header{
     display: block;
-    border: 1px solid blue;
+    background-color: #415DFF;
+    height: 40px;
+}
+div#header h1{
+    color: white;
 }
