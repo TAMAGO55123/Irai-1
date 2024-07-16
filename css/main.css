@@ -32,3 +32,28 @@ div#panel i.close::before{
 div#panel{
     margin-top: 40px;
 }
+
+div.main{
+    margin: 10px auto;
+}
+
+img#ploimg{
+    width: 50%;
+}
+.tcolor{
+    color: #415DFF;
+}
+
+ul{
+    list-style: none;
+}
+
+li::before{
+    content: "　　💙";
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin-left: -1em;
+    width: 1em;
+}
+li{
+    margin-left: 1em;
+}
