@@ -1,9 +1,66 @@
 .left{
     float: left;
 }
+.leftk{
+    float: left;
+}
 .right{
     float: right;
 }
+.rightk{
+    float: right;
+}
+
+img#ploimg{
+    width: 50%;
+}
+
+span.thbr::before{
+    content: "\A\A\A";
+    white-space: pre;
+    font-size: 400%;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .left, .right{
+        float: none;
+    }
+    img#ploimg{
+        width: 100%;
+    }
+    span.thbr::before{
+        content: "";
+        white-space: pre;
+        display: none;
+    }
+    h2{
+        font-size: 2em;
+    }
+    p{
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    div#plofile{
+        font-size: 0.5em;
+    }
+    h2{
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    p.prop{
+        font-size: 0.3em;
+    }
+    h2{
+        font-size: 1em;
+    }
+}
+
 div#header{
     display: block;
     background-color: #415DFF;
@@ -12,6 +69,9 @@ div#header{
 }
 div#header h1, div#header i{
     color: white;
+    margin: 0px;
+    padding: 0px;
+    border: none 0px;
 }
 div#header i{
     display: inline-block;
@@ -37,23 +97,15 @@ div.main{
     margin: 10px auto;
 }
 
-img#ploimg{
-    width: 50%;
-}
+
 .tcolor{
     color: #415DFF;
 }
-
-ul{
-    list-style: none;
+div.link a{
+    transition: 0.3s;
 }
 
-li::before{
-    content: "　　💙";
-    font-family: "M PLUS Rounded 1c", sans-serif;
-    margin-left: -1em;
-    width: 1em;
+div.link a:hover{
+    filter: brightness(0.8);
 }
-li{
-    margin-left: 1em;
-}
+
