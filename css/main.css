@@ -66,6 +66,7 @@ div#header{
     background-color: #415DFF;
     height: 40px;
     width: 100%;
+    position: fixed;
 }
 div#header h1, div#header i{
     color: white;
