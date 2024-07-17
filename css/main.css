@@ -109,3 +109,7 @@ div.link a:hover{
     filter: brightness(0.8);
 }
 
+footer{
+    background-color: rgb(198, 198, 198);
+    font-size: 2em;
+}
